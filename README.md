@@ -1,5 +1,5 @@
 # Association between vaccination rates and severe COVID-19 health outcomes in the United States: a population-level statistical analysis 
-Summary
+## Summary
 Background
 Vaccine development and distribution have been at the forefront of efforts to combat the COVID-19 pandemic. As the vaccines have been widely adopted by the population, uncertainties around their effectiveness resulting from the emergence of new variants and other confounding factors make it challenging to determine their real-world impact, which is critical for understanding risk, informing public health policies, and mitigating the impact of COVID-19. 
 
