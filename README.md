@@ -36,3 +36,8 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 * `combine_dataset_and_create_relative_variable.ipynb`: combine all required data and create relative variables for GAMs.
 * `GAMs_Hosp.R`: create GAMs fit to relative hospitalization rate and generate all the files in the results folder. Similar codes can be applied to `df_inf.csv` for modeling relative infection rate as the outcome variable. 
 * `GAM_visualization.ipynb`: create GAMs' visualization from file in results folder.
+
+## Contributors
+Hongru Du, Samee Saiyed, and Lauren M. Gardner
+
+## BibTeX
