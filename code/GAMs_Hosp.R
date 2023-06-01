@@ -35,7 +35,7 @@ remove_outlier <- function(dataframe,
 ######################
 ## All waves all weeks
 ######################
-df_hosp <- read.csv('/Users/hongrudu/Desktop/submission_file/Data/hospitalization_rate.csv')
+df_hosp <- read.csv('/Users/hongrudu/Documents/GitHub/vaccination_rate_GAMs/data/df_hosp.csv')
 df_hosp<-df_hosp[!is.na(df_hosp$Relative_hospitalization_rate),]
 df_hosp <- df_hosp[!df_hosp$FIPS %in% c(33, 54),]
 
@@ -60,7 +60,7 @@ gam.check(model_1_all,rep = 100, page = 1)
 
 comp <- compare_smooths(model_1_all, model_1_all)
 rest <- unnest(comp,data)
-write.csv(rest, '/Users/hongrudu/Documents/GitHub/vaccination_rate_GAMs/results/model_1_all_waves.csv')
+write.csv(rest, '/vaccination_rate_GAMs/results/model_1_all_waves.csv')
 
 ################################################################################
 ##### Fit to pre-Delta wave
@@ -138,7 +138,7 @@ gam.check(model_1_omicron,rep = 100, page = 1)
 comp <- compare_smooths(model_1_pre_delta, model_1_delta, model_1_omicron)
 rest <- unnest(comp,data)
 draw(comp)
-write.csv(rest, '/Users/hongrudu/Documents/GitHub/vaccination_rate_GAMs/results/compare_3_waves.csv')
+write.csv(rest, '/vaccination_rate_GAMs/results/compare_3_waves.csv')
 ################
 ####Add booster data
 ########## Add booster data
@@ -164,12 +164,11 @@ x2 <- plot_data[[1]]$y
 fit <- plot_data[[1]]$fit
 se <- plot_data[[1]]$se
 
-write.table(x1, file='/Users/hongrudu/Documents/GitHub/vaccination_rate_GAMs/results/interaction_x1.tsv', quote=FALSE, sep=',', col.names = NA)
-write.table(x2, file='/Users/hongrudu/Documents/GitHub/vaccination_rate_GAMs/results/interaction_x2.tsv', quote=FALSE, sep=',', col.names = NA)
-write.table(fit, file='/Users/hongrudu/Documents/GitHub/vaccination_rate_GAMs/results/interaction_fit.tsv', quote=FALSE, sep=',', col.names = NA)
+write.table(x1, file='/vaccination_rate_GAMs/results/interaction_x1.tsv', quote=FALSE, sep=',', col.names = NA)
+write.table(x2, file='/vaccination_rate_GAMs/results/interaction_x2.tsv', quote=FALSE, sep=',', col.names = NA)
+write.table(fit, file='/vaccination_rate_GAMs/results/interaction_fit.tsv', quote=FALSE, sep=',', col.names = NA)
 
 
 comp <- compare_smooths(model_2_omicron, model_2_omicron)
 rest <- unnest(comp,data)
-draw(comp)
-write.csv(rest, '/Users/hongrudu/Documents/GitHub/vaccination_rate_GAMs/results/model_2_omicron.csv')
+write.csv(rest, '/vaccination_rate_GAMs/results/model_2_omicron.csv')
