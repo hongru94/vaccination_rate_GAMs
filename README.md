@@ -30,4 +30,9 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 * `weekly_policy.pkl`: US state level government response index, source: https://github.com/OxCGRT/covid-policy-tracker. 
 * `weekly_testing.pkl`: US state level testing rate: source: https://github.com/govex/COVID-19/tree/master/data_tables/testing_data.
 * `weekly_vaccination.pkl`: US state level cumulative vaccination data, source: https://covid.cdc.gov/covid-data-tracker/#datatracker-home.
-* 
+
+## Code
+* `Generate_previous_infection.ipynb`: generate `weekly_previous_infection.pkl`. 
+* `combine_dataset_and_create_relative_variable.ipynb`: combine all required data and create relative variables for GAMs.
+* `GAMs_Hosp.R`: create GAMs fit to relative hospitalization rate and generate all the files in the results folder. Similar codes can be applied to `df_inf.csv` for modeling relative infection rate as the outcome variable. 
+* `GAM_visualization.ipynb`: create GAMs' visualization from file in results folder.
