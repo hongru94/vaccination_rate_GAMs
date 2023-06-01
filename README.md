@@ -14,7 +14,14 @@ Our study revealed a strong and statistically significant negative association b
 Despite the emergence of new variants, vaccines remain highly effective at reducing severe outcomes of COVID-19. Therefore, given the ongoing threat posed by COVID-19, vaccines remain a critical line of defense for protecting the public and preventing burden on the healthcare systems. 
 
 
-## Data  
+## Data
+### Processed data
 * `df_hosp.csv`: all data used for model relative hospitalization rate.
 * `df_inf.csv`: all data used for model relative infection rate.
-* `age_US_state.csv`: US state level population by age group, source: https://www.census.gov/data/datasets/time-series/demo/popest/2020s-state-detail.html
+* `static_variable.csv`: all static variable used in the model. 
+
+### Raw data
+* `age_US_state.csv`: US state level population by age group, source: https://www.census.gov/data/datasets/time-series/demo/popest/2020s-state-detail.html.
+* `weekly_cases.pkl`: US state level weekly confrimed cases, source: https://github.com/CSSEGISandData/COVID-19.
+* `weekly_hospitalized.pkl`: US state level hospitalized cases, source: https://covid.cdc.gov/covid-data-tracker/#datatracker-home.
+* `weekly_policy.pkl`: US state level government response index, source: https://github.com/OxCGRT/covid-policy-tracker. 
