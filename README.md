@@ -25,3 +25,4 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 * `weekly_cases.pkl`: US state level weekly confrimed cases, source: https://github.com/CSSEGISandData/COVID-19.
 * `weekly_hospitalized.pkl`: US state level hospitalized cases, source: https://covid.cdc.gov/covid-data-tracker/#datatracker-home.
 * `weekly_policy.pkl`: US state level government response index, source: https://github.com/OxCGRT/covid-policy-tracker. 
+* ``weekly_testing.pkl: US state level testing rate: source: https://github.com/govex/COVID-19/tree/master/data_tables/testing_data.
