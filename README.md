@@ -14,4 +14,4 @@ Our study revealed a strong and statistically significant negative association b
 Despite the emergence of new variants, vaccines remain highly effective at reducing severe outcomes of COVID-19. Therefore, given the ongoing threat posed by COVID-19, vaccines remain a critical line of defense for protecting the public and preventing burden on the healthcare systems. 
 
 
-  
+## Data  
