@@ -19,10 +19,13 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 * `df_hosp.csv`: all data used for model relative hospitalization rate.
 * `df_inf.csv`: all data used for model relative infection rate.
 * `static_variable.csv`: all static variable used in the model. 
+* `weekly_mobility.pkl`: generate from Safegraph's weekly patterns dataset. The raw data should request from [Safegraph]((https://www.safegraph.com/)).
 
 ### Raw data
 * `age_US_state.csv`: US state level population by age group, source: https://www.census.gov/data/datasets/time-series/demo/popest/2020s-state-detail.html.
 * `weekly_cases.pkl`: US state level weekly confrimed cases, source: https://github.com/CSSEGISandData/COVID-19.
 * `weekly_hospitalized.pkl`: US state level hospitalized cases, source: https://covid.cdc.gov/covid-data-tracker/#datatracker-home.
 * `weekly_policy.pkl`: US state level government response index, source: https://github.com/OxCGRT/covid-policy-tracker. 
-* ``weekly_testing.pkl: US state level testing rate: source: https://github.com/govex/COVID-19/tree/master/data_tables/testing_data.
+* `weekly_testing.pkl`: US state level testing rate: source: https://github.com/govex/COVID-19/tree/master/data_tables/testing_data.
+* `weekly_vaccination.pkl`: US state level cumulative vaccination data, source: https://covid.cdc.gov/covid-data-tracker/#datatracker-home.
+* 
