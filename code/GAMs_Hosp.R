@@ -58,6 +58,10 @@ plot(model_1_all, page = 1)
 concurvity(model_1_all)
 gam.check(model_1_all,rep = 100, page = 1)
 
+comp <- compare_smooths(model_1_all, model_1_all)
+rest <- unnest(comp,data)
+write.csv(rest, '/Users/hongrudu/Documents/GitHub/vaccination_rate_GAMs/results/model_1_all_waves.csv')
+
 ################################################################################
 ##### Fit to pre-Delta wave
 
@@ -134,8 +138,7 @@ gam.check(model_1_omicron,rep = 100, page = 1)
 comp <- compare_smooths(model_1_pre_delta, model_1_delta, model_1_omicron)
 rest <- unnest(comp,data)
 draw(comp)
-
-
+write.csv(rest, '/Users/hongrudu/Documents/GitHub/vaccination_rate_GAMs/results/compare_3_waves.csv')
 ################
 ####Add booster data
 ########## Add booster data
@@ -155,3 +158,5 @@ summary(model_2_omicron)
 plot(model_2_omicron, page =1, scheme = 1)
 concurvity(model_2_omicron)
 gam.check(model_2_omicron,rep = 100, page = 1)
+
+
