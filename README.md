@@ -15,5 +15,6 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 
 
 ## Data  
-* `df_hosp.csv` contains all data used for model relative hospitalization rate.
-* `df_inf.csv` contains all data used for model relative infection rate.
+* `df_hosp.csv`: all data used for model relative hospitalization rate.
+* `df_inf.csv`: all data used for model relative infection rate.
+* `age_US_state.csv': US state level population by age group, source: https://www.census.gov/data/datasets/time-series/demo/popest/2020s-state-detail.html
