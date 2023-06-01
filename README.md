@@ -16,3 +16,4 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 
 ## Data  
 * `df_hosp.csv` contains all data used for model relative hospitalization rate.
+* `df_inf.csv` contains all data used for model relative infection rate.
