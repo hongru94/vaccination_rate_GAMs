@@ -1,4 +1,5 @@
 # Association between vaccination rates and severe COVID-19 health outcomes in the United States: a population-level statistical analysis 
+### The paper can be found here: (https://www.medrxiv.org/content/10.1101/2023.06.14.23291388v1).
 ## Summary
 ### Background
 
