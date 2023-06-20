@@ -41,3 +41,11 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 Hongru Du, Samee Saiyed, and Lauren M. Gardner
 
 ## BibTeX
+@article{du2023association,
+  title={Association between vaccination rates and severe COVID-19 health outcomes in the United States: a population-level statistical analysis},
+  author={Du, Hongru and Saiyed, Samee and Gardner, Lauren Marie},
+  journal={medRxiv},
+  pages={2023--06},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory Press}
+}
