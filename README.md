@@ -35,10 +35,14 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 * `Weekly_previous_infection.pkl`: generate from https://github.com/CSSEGISandData/COVID-19.
 
 ## Code
-* `Generate_previous_infection.ipynb`: generate `weekly_previous_infection.pkl`. 
-* `combine_dataset_and_create_relative_variable.ipynb`: combine all required data and create relative variables for GAMs.
-* `GAMs_Hosp.R`: create GAMs fit to relative hospitalization rate and generate all the files in the results folder. Similar codes can be applied to `df_inf.csv` for modeling relative infection rate as the outcome variable. 
-* `GAM_visualization.ipynb`: create GAMs' visualization from file in results folder.
+* `CHR_model.R`: GAMS fit to case-hospitalization risk.
+* `CIR_model.R`: GAMS fit to reported case incidence rate.
+* `Create_input_data_CHR.ipynb`: Code for generating `CHR_input.csv`.
+* `Create_input_data_CIR.ipynb`: Code for generating `CIR_input.csv`.
+* `Previous_infection_sensitivity_analysis.ipynb`: Sensitivity analysis on previous infection variables.
+* `interaction_ALE_CHR.ipynb`: Plotting results from Omicron-Booster-RCHR. 
+
+
 
 ## Contributors
 Hongru Du, Samee Saiyed, and Lauren M. Gardner
