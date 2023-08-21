@@ -17,20 +17,22 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 
 ## Data
 ### Processed data
-* `df_hosp.csv`: all data used for model relative hospitalization rate.
-* `df_inf.csv`: all data used for model relative infection rate.
-* `static_variable.csv`: all static variable used in the model. 
-* `weekly_mobility.pkl`: weekly number of purpose-specific travel patterns. This data generates from Safegraph's weekly patterns dataset. The raw data should request from [Safegraph](https://www.safegraph.com/).
-* `weekly_genomic.pkl`: generate from COVID-19 sequencing data, the raw data were downloaded from [GISAID](https://gisaid.org/).
-* `weekly_previous_infection.pkl`: generate from https://github.com/CSSEGISandData/COVID-19.
+* `CHR_input.csv`: all data used for model relative case-hospitalization risk.
+* `CIR_input.csv`: all data used for model relative reported case incidence rate.
+* `CHR_RP_lag_range.csv`: data used for sensitivity analysis on previous infection variables.
 
 ### Raw data
+* `State_population.csv`: US state population data, source: https://www.census.gov/data/datasets/time-series/demo/popest/2020s-state-detail.html.
+* `static_variable.csv`: all static variables used in the model.
+* `weekly_activity_level.pkl`: weekly activity-related engagement levels. This data generates from Safegraph's weekly patterns dataset. The raw data should request from [Safegraph](https://www.safegraph.com/).
 * `age_US_state.csv`: US state level population by age group, source: https://www.census.gov/data/datasets/time-series/demo/popest/2020s-state-detail.html.
-* `weekly_cases.pkl`: US state level weekly confrimed cases, source: https://github.com/CSSEGISandData/COVID-19.
-* `weekly_hospitalized.pkl`: US state level hospitalized cases, source: https://covid.cdc.gov/covid-data-tracker/#datatracker-home.
-* `weekly_policy.pkl`: US state level government response index, source: https://github.com/OxCGRT/covid-policy-tracker. 
-* `weekly_testing.pkl`: US state level testing rate: source: https://github.com/govex/COVID-19/tree/master/data_tables/testing_data.
-* `weekly_vaccination.pkl`: US state level cumulative vaccination data, source: https://covid.cdc.gov/covid-data-tracker/#datatracker-home.
+* `Weekly_cases.pkl`: US state level weekly confrimed cases, source: https://github.com/CSSEGISandData/COVID-19.
+* `Weekly_genomic.pkl`: generate from COVID-19 sequencing data, the raw data were downloaded from [GISAID](https://gisaid.org/).
+* `Weekly_hospitalized.pkl`: US state level hospitalized cases, source: https://covid.cdc.gov/covid-data-tracker/#datatracker-home.
+* `Weekly_policy.pkl`: US state level government response index, source: https://github.com/OxCGRT/covid-policy-tracker. 
+* `Weekly_testing.pkl`: US state level testing rate: source: https://github.com/govex/COVID-19/tree/master/data_tables/testing_data.
+* `Weekly_vaccination.pkl`: US state level cumulative vaccination data, source: https://covid.cdc.gov/covid-data-tracker/#datatracker-home.
+* `Weekly_previous_infection.pkl`: generate from https://github.com/CSSEGISandData/COVID-19.
 
 ## Code
 * `Generate_previous_infection.ipynb`: generate `weekly_previous_infection.pkl`. 
