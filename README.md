@@ -39,10 +39,13 @@ Despite the emergence of new variants, vaccines remain highly effective at reduc
 * `CIR_model.R`: GAMS fit to reported case incidence rate.
 * `Create_input_data_CHR.ipynb`: Code for generating `CHR_input.csv`.
 * `Create_input_data_CIR.ipynb`: Code for generating `CIR_input.csv`.
-* `Previous_infection_sensitivity_analysis.ipynb`: Sensitivity analysis on previous infection variables.
-* `interaction_ALE_CHR.ipynb`: Plotting results from Omicron-Booster-RCHR. 
-
-
+* `previous_infection_sensitivity_analysis.R`: Sensitivity analysis on previous infection variables.
+* `Previous_infection_sensitivity_analysis.ipynb`: Plotting sensitivity analysis results of previous infection variables.
+* `interaction_ALE_CHR.ipynb`: Plotting results from Omicron-Booster-RCHR.
+* `interaction_ALE_CIR.ipynb`: Plotting results from Omicron-Booster-RCIR.
+* 'plot_dynamic_var_before_after_transformation.ipynb': Plotting dynamic variables before and after variables transformation.
+* `visualize_3_model_ALE_CHR.ipynb`: Plotting results from RCHR models.
+* `visualize_3_model_ALE_CIR.ipynb`: Plotting results from RCIR models.
 
 ## Contributors
 Hongru Du, Samee Saiyed, and Lauren M. Gardner
