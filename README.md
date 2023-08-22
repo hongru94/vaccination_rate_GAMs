@@ -3,7 +3,7 @@
 ## Summary
 ### Background
 
-Vaccine development and distribution have been at the forefront of efforts to combat the COVID-19 pandemic. As the vaccines have been widely adopted by the population, uncertainties around their effectiveness resulting from the emergence of new variants and other confounding factors make it challenging to determine their real-world impact, which is critical for understanding risk, informing public health policies, and mitigating the impact of COVID-19. 
+Population-level vaccine efficacy is a critical component of understanding COVID-19 risk, informing public health policy, and mitigating disease impacts. Unlike individual-level clinical trials, population-level analysis characterizes how well vaccines worked in the face of real-world challenges like emerging variants, differing mobility patterns, and policy changes.
 
 ### Methods
 We analyzed the association between vaccination rates and COVID-19 severity for 48 states in the U.S. using Generalized Additive Models (GAMs). We controlled for dynamic factors such as testing, purpose-specific travel behaviors, underlying population immunity, and policy, and critical static factors such as comorbidities, vulnerability, race, and state healthcare expenditures. In addition, We used SARS-CoV-2 genomic surveillance data to model the different COVID-19 variant-driven waves separately and evaluate if there is a changing role of the potential drivers of severity over time and across waves. 
