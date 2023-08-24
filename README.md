@@ -1,5 +1,5 @@
 # Association between vaccination rates and severe COVID-19 health outcomes in the United States: a population-level statistical analysis 
-## Summary
+
 ### Background
 
 Population-level vaccine efficacy is a critical component of understanding COVID-19 risk, informing public health policy, and mitigating disease impacts. Unlike individual-level clinical trials, population-level analysis characterizes how well vaccines worked in the face of real-world challenges like emerging variants, differing mobility patterns, and policy changes.
